@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PapSP</title>
+  <link href="PaPSP.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="conter-itens">
+    <nav class="menu">
+      @*<div>*@
+      @*  <img class="logo" src="Imagens/logoPap.png">
+        @*<h1 id="texto">Ponto a Ponto São Paulo</h1>*@
+        @*<hr class="hr">*@
+        <img class="prof" src="Imagens/profile.png">
+
+      </div>
+
+    </nav>
+    
+    @*@*@@*@*<nav class="art">*@@*@*@
+@*
+      <ul>
+        <li>
+          <a class="ow" href="Home.htm">Home</a>
+        </li>
+         <li>
+          <a class="ow" href="Lazer.htm">Lazer</a>
+        </li>
+        <li>
+          <a class="ow" href="Casashow.htm">Casas de Shows</a>
+        </li>
+        <li>
+          <a class="ow" href="Esportes.htm">Esportes</a>
+        </li>
+        <li>
+          <a class="ow" href="Cultura.htm">Cultura</a>
+        </li>
+        <li>
+          <a class="ow" href="Bares.htm">Bares</a>
+        </li>
+        <li>
+          <a class="ow" href="Restaurantes.htm">Restaurantes</a>
+        </li>
+        <li>
+          <a class="ow" href="Contato.html">Baladas</a>
+        </li>
+        <li>
+          <a class="ow" href="contato.html">Contato</a>
+        </li>
+        <li>
+          <a class="ow" href="sobrenos.html">Sobre</a>
+        </li>
+      </ul>
+    </nav>
+    </div>*@
+
+      @*<hr class="hr">*@
+
+      <head>
+        <!-- Importe as bibliotecas do Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </head>
+
+
+        <!-- Crie um container para o carrossel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Slides -->
+          <div class="carousel-inner" style="height: 25em; ">
+            <div class="carousel-item active">
+              <img src="~/imagens/paulista.png" alt="Foto 1">
+            </div>
+            <div class="carousel-item">
+              <img src="~/imagens/tets.png" alt="Foto 2">
+            </div>
+            <div class="carousel-item">
+              <img src="~/imagens/av.png" alt="Foto 3">
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+
+  </header>
+  </hr>
+  </nav>
+  <p>
+    <h5 class="ai">A PaPSP foi concebida para contrastar seus serviços dos de outros organizadores turísticos. <br>O diferencial da marca é destrinchar a cidade de São Paulo com uma perspectiva nativa, de quem vive e entende a cidade. </h5>
+    </p>
+    @*
+<footer>
+    <p class="nam">Endereço: Av. Brg. Faria Lima, 3477 - Itaim Bibi, São Paulo - SP, 04538-133
+
+<br>Fone: (11) 2164-9877
+
+<br>E-mail: papspsenac@gmail.com<br>
+
+
+ </p>
+  </footer>*@
+    
+</body>
+
+</html>
